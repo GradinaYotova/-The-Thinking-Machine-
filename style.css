@@ -1,0 +1,38 @@
+@font-face {
+  font-family: myFont;
+  src: url(NeueMachinaRegular400.otf);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  position: fixed;
+}
+canvas {
+  display: block;
+}
+
+h1{
+	color: #fff;
+	font-family: myFont;
+	padding: 0px;
+	font-size: 2em;
+	line-height: 1.25;
+	text-align: center;
+	transform: translate(-15px);
+	display: block;
+}
+
+
+h2{
+	font-family: myFont;
+	color: #fff;
+	margin-top: -1em;
+	font-size: 1em;
+	line-height: 1.20;
+	margin-left: 20px;
+	text-align: center;
+	transform: translate(-15px);
+	display: block;
+}
